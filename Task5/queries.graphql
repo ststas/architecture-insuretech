@@ -1,0 +1,51 @@
+# Примеры запросов к схеме client-info (schema.graphql).
+
+# Аналог GET /clients/{id}
+query ClientCard {
+  client(id: "1") {
+    id
+    name
+    age
+  }
+}
+
+# Аналог GET /clients/{id}/documents
+query ClientDocuments {
+  client(id: "1") {
+    documents {
+      id
+      type
+      number
+      issueDate
+      expiryDate
+    }
+  }
+}
+
+# Аналог GET /clients/{id}/relatives
+query ClientRelatives {
+  client(id: "1") {
+    relatives {
+      id
+      relationType
+      name
+      age
+    }
+  }
+}
+
+# Три REST-вызова одним запросом, только нужные поля
+query ClientForPolicy {
+  client(id: "1") {
+    name
+    documents {
+      type
+      number
+      expiryDate
+    }
+    relatives {
+      relationType
+      name
+    }
+  }
+}
