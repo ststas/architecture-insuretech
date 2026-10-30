@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 YaBrowser/24.7.0.0 Safari/537.36">
   <diagram id="51zmUan4mFf6pz3q3UUt" name="InsureTech">
-    <mxGraphModel dx="1528" dy="2190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="317" dy="1381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -299,12 +299,10 @@
           <mxGeometry height="145" width="450" x="451" y="70" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Type="Relationship" c4Technology="Kafka" c4Description="Необработанные&#xa;события" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="t3-e7">
-          <mxCell edge="1" parent="1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=2;endFill=1;strokeColor=#D79B00;dashed=1;labelBackgroundColor=#FFFFFF;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="t3-dlq">
-            <mxGeometry relative="1" width="240" x="-0.0769" as="geometry">
+          <mxCell edge="1" parent="1" source="uZ0quFO-MIEIE11IO5jD-19" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=2;endFill=1;strokeColor=#D79B00;dashed=1;labelBackgroundColor=#FFFFFF;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.002;exitY=0.837;exitDx=0;exitDy=0;exitPerimeter=0;" target="t3-dlq">
+            <mxGeometry relative="1" width="240" x="-0.0775" as="geometry">
               <mxPoint as="offset" />
-              <Array as="points">
-                <mxPoint x="1621" y="-270" />
-              </Array>
+              <Array as="points" />
               <mxPoint x="1620" y="-270" as="sourcePoint" />
               <mxPoint x="1401" y="-280" as="targetPoint" />
             </mxGeometry>
