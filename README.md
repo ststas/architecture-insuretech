@@ -36,7 +36,7 @@
 
 Проблемы и риски: [problems-and-risks.md](Task3/problems-and-risks.md).
 
-Обновлённая диаграмма: [InsureTech*C4*сontainer-diagram.drawio](Task3/InsureTech_C4_%D1%81ontainer-diagram.drawio), [PNG](Task3/InsureTech_C4_%D1%81ontainer-diagram.drawio.png).
+Обновлённая диаграмма: [InsureTech\_C4\_сontainer-diagram.drawio](Task3/InsureTech_C4_%D1%81ontainer-diagram.drawio), [PNG](Task3/InsureTech_C4_%D1%81ontainer-diagram.drawio.png).
 
 **Главный риск:** синхронная цепочка «сервис → ins-product-aggregator → все страховые» и опрос по расписанию. С ростом числа страховых с 5 до 10 вероятность сбоя запроса почти удваивается, данные устаревают до 15 минут (core-app) и до суток (ins-comp-settlement), а ежедневная выгрузка нагружает core-app.
 
@@ -54,7 +54,7 @@
 
 ## Задание 4. Проектирование продажи ОСАГО
 
-Схема: [InsureTech*C4*сontainer-diagram.drawio](Task4/InsureTech_C4_%D1%81ontainer-diagram.drawio), [PNG](Task4/InsureTech_C4_%D1%81ontainer-diagram.drawio.png).
+Схема: [InsureTech\_C4\_сontainer-diagram.drawio](Task4/InsureTech_C4_%D1%81ontainer-diagram.drawio), [PNG](Task4/InsureTech_C4_%D1%81ontainer-diagram.drawio.png).
 
 **Нагрузка (допущение):** до 2 500 одновременных заявок × до 10 страховых = 25 000 пар «заявка — страховая». При опросе раз в 3–5 секунд это 5–8 тысяч запросов в секунду к страховым суммарно, реальные лимиты страховых неизвестны.
 
